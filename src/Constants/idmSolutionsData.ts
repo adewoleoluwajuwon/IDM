@@ -1,0 +1,66 @@
+export interface IdmSolutionItem {
+    title: string;
+    description: string;
+    extra?: string; // for "IDM Robo Camp" etc.
+    image?: string;
+  }
+  
+  export const idmSolutionsData: IdmSolutionItem[] = [
+    {
+      title: "Robotics",
+      description:
+        "Introducing students to the fascinating world of robotics, where they learn to design, build, and program robots, enhancing their problem-solving and critical-thinking skills.",
+      extra:
+        "IDM ROBO CAMP\nA unique platform which motivates, inspires and engages students to experience a natural, practical, hands-on and experimental learning...",
+      image: "/src/assets/images/robotics.png",
+    },
+    {
+      title: "Artificial Intelligence (AI)",
+      description:
+        "We provide a foundational understanding of AI concepts, our courses delve into machine learning, neural networks, and data analysis, preparing students for a future driven by intelligent systems.",
+      image: "/src/assets/images/ai.png",
+    },
+    {
+      title: "Software Programming (Coding)",
+      description:
+        "Introducing students to the language of the future, our coding courses range from basic programming concepts to advanced software development, empowering students to build their own applications and solutions.",
+      image: "/src/assets/images/software-programing.png",
+    },
+    {
+      title: "Game Development",
+      description:
+        "Guiding students through the exciting process of game creation, our game development courses teach the fundamentals of game design, programming, and interactive storytelling.",
+      image: "/src/assets/images/game-dev.png",
+    },
+    {
+      title: "Database Management",
+      description:
+        "Students learn the principles of database design, management, and security, preparing them to organize and maintain complex data systems.",
+      image: "/src/assets/images/database.png",
+    },
+    {
+      title: "Animation and Multimedia",
+      description:
+        "Encouraging creativity and storytelling, our animation and media courses cover everything from basic animation techniques to advanced media production, enabling students to bring their imaginations to life.",
+      image: "/src/assets/images/animation-and-multimedia.png",
+    },
+    {
+      title: "3D Modelling",
+      description:
+        "Explore the world of 3D graphics by learning to create digital models used in games, simulations, and product design.",
+      image: "/src/assets/images/3d.png",
+    },
+    {
+      title: "Microsoft Suites",
+      description:
+        "Mastering Microsoft Office applications including Word, Excel, and PowerPoint to boost productivity and digital literacy.",
+      image: "/src/assets/images/ms.png",
+    },
+    {
+      title: "Graphics Design",
+      description:
+        "Unleash creativity with tools like Photoshop and Illustrator to craft compelling digital designs, branding, and layouts.",
+      image: "/src/assets/images/Graphics-design.png",
+    },
+  ];
+  
