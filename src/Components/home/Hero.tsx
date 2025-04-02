@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
     return () => clearInterval(interval);
   }, [dragging]);
 
-  const handleDragEnd = (event: any, info: { offset: { x: number } }) => {
+  const handleDragEnd = (_event: any, info: { offset: { x: number } }) => {
     if (info.offset.x > 50) {
       setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
     } else if (info.offset.x < -50) {

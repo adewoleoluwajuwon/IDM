@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom';
-import { FaCloud, FaChartBar } from "react-icons/fa";
+import { FaCloud } from "react-icons/fa";
 import { HiTemplate } from "react-icons/hi";
 
 const cloudBenefits = [
