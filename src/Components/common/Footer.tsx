@@ -11,8 +11,9 @@ const Footer = () => {
         <div>
           <Link to="/" className="flex items-center">
             <img
-              src="/assets/logos/idm_logo.png"
+              src="/logos/idm_logo.webp"
               alt="IDM Logo"
+              loading="lazy"
               className="h-8 transition-transform duration-300 hover:scale-105 md:h-9"
             />
           </Link>

@@ -56,6 +56,7 @@ const LearnHowItWorks: React.FC<LearnHowItWorksProps> = ({ className = "", title
           <img
             src={imageSrc}
             alt="How It Works"
+            loading="lazy"
             className="w-full max-w-4xl rounded-lg shadow-lg"
           />
         </motion.div>

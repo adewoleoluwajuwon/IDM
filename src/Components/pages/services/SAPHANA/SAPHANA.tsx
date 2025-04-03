@@ -15,7 +15,7 @@ const SAPHANA = () => {
         system or MMDB or memory resident database) is a database management system that primarily 
         relies on main memory for computer data storage."
         buttonText="Learn More"
-        heroImage="/src/assets/images/hanahero.png"
+        heroImage="/images/hanahero.webp"
       />
       <BestPractices 
         heading="In-memory databases are faster than optimized databases"
@@ -37,7 +37,7 @@ const SAPHANA = () => {
         description2="SAP HANA operates on the SUSE Linux Server, which manages memory reservations for various processes. 
         Linux OS allocates memory dynamically as needed by SAP HANA, which uses a memory pool to manage in-memory data, system 
         tables, and computations. High data compression in HANA reduces overall storage requirements."
-        imageSrc="/src/assets/images/sap-hana-memory.png"
+        imageSrc="/images/sap-hana-memory.webp"
       />
       <BestPractices 
         heading="Why SAP HANA?"

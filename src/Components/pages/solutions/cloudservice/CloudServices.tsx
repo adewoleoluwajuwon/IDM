@@ -14,7 +14,7 @@ const CloudServices = () => {
         gain real-time business insights, and maintain 
         cost-efficiency without the need for on-premise infrastructure."
         buttonText="Learn More"
-        heroImage="/src/assets/images/cloud-services-hero.png"
+        heroImage="/images/cloud-services-hero.webp"
     />
 
     <BestPractices 

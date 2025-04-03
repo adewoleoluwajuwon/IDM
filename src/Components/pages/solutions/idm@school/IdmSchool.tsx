@@ -14,7 +14,7 @@ const IdmSchool = () => {
         We offer a diverse curriculum that encompasses the latest advancements in technology, 
         ensuring that our students are well-prepared for the future."
         buttonText="Learn More"
-        heroImage="/src/assets/images/idmschool-hero.jpg"
+        heroImage="/images/idmschool-hero.webp"
       />
       <WhyIdmSchool />
       <IdmSolutionAccordion />

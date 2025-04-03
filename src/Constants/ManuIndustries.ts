@@ -16,84 +16,84 @@ export interface Industry {
       title: "Manufacturing",
       description:
         "We provide manufacturing solutions that help you optimize your supply chain, improve customer experience, and drive sales.",
-      image: "/src/assets/images/industry-manufacturing.png",
+      image: "/images/industry-manufacturing.webp",
       icon: FaIndustry,
     },
     {
       title: "Retail",
       description:
         "Manage POS, Inventory, Cash and Integrate Back End Procurement and SKU with ease.",
-      image: "/src/assets/images/industry-retail.png",
+      image: "/images/industry-retail.webp",
       icon: FaShoppingCart,
     },
     {
       title: "Logistics",
       description:
         "Functionality for complex warehousing, voluminous stock movements, bin management & distribution centres.",
-      image: "/src/assets/images/industry-logistics.png",
+      image: "/images/industry-logistics.webp",
       icon: FaTruck,
     },
     {
       title: "Automobile component",
       description:
         "Comprehensive solution including quality management, advance production & subcontracting.",
-      image: "/src/assets/images/industry-automobile.png",
+      image: "/images/industry-automobile.webp",
       icon: FaPills,
     },
     {
       title: "Food & Beverages",
       description:
         "End-to-end solution for procurement, processing & distribution for food & beverages manufacturing.",
-      image: "/src/assets/images/industry-food.png",
+      image: "/images/industry-food.webp",
       icon: FaUtensils, 
     },
     {
       title: "Oil & Gas",
       description:
         "We offer proven best-practice solutions for companies specializing in the import, export, distribution, and marketing of oil and gas products.",
-      image: "/src/assets/images/industry-oil-gas.png",
+      image: "/images/industry-oil-gas.webp",
       icon: FaGasPump,
     },
     {
       title: "Professional Services",
       description:
-        "Expedite Project Management, Improve Operations Planning. Listen to Customers with CRM & Manage assets efficiently.",
-      image: "/src/assets/images/ind-pro.png",
+        "Expedite Project Management, Improve Operations Planning. Listen to Customers with CRM & Ma efficiently.",
+      image: "/images/ind-pro.webp",
       icon: FaBriefcase,
     },
     {
       title: "Automobile component",
       description:
         "Comprehensive solution including quality management, advance production & subcontracting.",
-      image: "/src/assets/images/ind-auto.png",
+      image: "/images/ind-auto.webp",
       icon:FaCar,
     },
     {
       title: "Packaging",
       description:
         "Tailored tools for production planning, inventory management, and quality control. It enhances efficiency, reduces waste, and streamlines the supply chain for packaging companies.",
-      image: "/src/assets/images/ind-pack.png",
+      image: "/images/ind-pack.webp",
       icon: FaBox,
     },
     {
       title: "Electronic Components",
       description:
         "Handle multi-level bill of materials & assemblies for manufacturing of machines & electronic components.",
-      image: "/src/assets/images/ind-pack.png",
+      image: "/images/ind-pack.webp",
       icon: FaMicrochip,
     },
     {
       title: "Trade & Distribution",
       description:
         "Handle Excise Trading, Wholesale & B2B Distribution, Supply Chain, Bill on Materials & much more.",
-      image: "/src/assets/images/ind-trade.png",
+      image: "/images/ind-trade.webp",
       icon: FaStore,
     },
     {
       title: "Recycling",
       description:
         "This solution streamlines operations by providing tools for waste collection, sorting, processing, and recycling, helping companies improve efficiency, compliance, and sustainability efforts.",
-      image: "/src/assets/images/ind-recyc.png",
+      image: "/images/ind-recyc.webp",
       icon:
       FaRecycle,
     },

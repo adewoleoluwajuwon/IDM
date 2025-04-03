@@ -1,12 +1,12 @@
 export const partners = [
-    '/assets/logos/partner1.png',
-    '/assets/logos/partner2.png',
-    '/assets/logos/partner3.png',
-    '/assets/logos/partner4.png',
-    '/assets/logos/partner5.png',
-    '/assets/logos/partner6.png',
-    '/assets/logos/partner7.png',
-    '/assets/logos/partner8.png',
-    '/assets/logos/partner9.png',
+    '/logos/partner1.webp',
+    '/logos/partner2.webp',
+    '/logos/partner3.webp',
+    '/logos/partner4.webp',
+    '/logos/partner5.webp',
+    '/logos/partner6.webp',
+    '/logos/partner7.webp',
+    '/logos/partner8.webp',
+    '/logos/partner9.webp',
   ];
   

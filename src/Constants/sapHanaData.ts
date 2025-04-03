@@ -11,7 +11,4 @@ export const sapHanaServices = [
       title: "SAP HANA Platform",
       description: "SAP HANA Platform is a development platform with an in-memory data store that allows customers to analyze large volumes of data in real time. It provides infrastructure and tools for high-performance applications based on SAP HANA Extended Application Services (SAP HANA XS).",
     },
-  ];
-  
-  export const sapHanaImage = "/src/assets/images/sap-hana-architecture.png"; // ✅ Path to the big architecture image
-  
+  ]; 

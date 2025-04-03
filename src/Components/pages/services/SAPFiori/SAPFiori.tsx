@@ -14,7 +14,7 @@ const SAPFiori = () => {
         applications according to the SAP Fiori concept. SAP Fiori apps adhere to this 
         concept and can be deployed on-cloud or on-premise."
         buttonText="Learn More"
-        heroImage="/src/assets/images/hanahero.png"
+        heroImage="/images/hanahero.webp"
       />
       <BestPractices 
         heading="Reimagine the SAP user experience with SAP Fiori"
@@ -34,7 +34,7 @@ const SAPFiori = () => {
         to launch and run the apps. The business data that is consumed in the apps is retrieved at 
         runtime from the back-end systems by using OData services."
         description2=""
-        imageSrc="/src/assets/images/Fiori_arch.png"
+        imageSrc="/images/Fiori_arch.webp"
       />
     </main>
   );

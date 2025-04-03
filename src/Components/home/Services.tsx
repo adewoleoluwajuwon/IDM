@@ -45,6 +45,7 @@ const Services: React.FC = () => {
               >
                 <motion.img 
                   src={service.image} 
+                  loading="lazy"
                   alt={service.title} 
                   className="w-16 h-16 object-contain mb-4 md:mb-0 md:mr-4 group-hover:scale-110 transition-transform duration-300"
                 />

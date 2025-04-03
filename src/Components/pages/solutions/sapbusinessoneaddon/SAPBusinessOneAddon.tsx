@@ -13,7 +13,7 @@ const SAPBusinessOneAddon = () => {
               including automation, enhanced communication, improved efficiency, 
               and better decision-making."
               buttonText="Learn More"
-              heroImage="/src/assets/images/solutions-hero.png"
+              heroImage="/images/solutions-hero.webp"
         />
         <AddonFeatures />
         <AddonServices />

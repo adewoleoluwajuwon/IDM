@@ -43,6 +43,7 @@ const Industries: React.FC = () => {
               <img
                 src={industry.image}
                 alt={industry.title}
+                loading="lazy"
                 className="w-full h-48 object-cover rounded-lg shadow-md"
               />
             </div>

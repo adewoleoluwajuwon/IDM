@@ -16,7 +16,7 @@ const CustomerServices = () => {
         quality Voice based customer care center in 
         Abeokuta Nigeria that offers employment to over 1000."
         buttonText="Learn More"
-        heroImage="/src/assets/images/customre-care-hero.png"
+        heroImage="/images/customre-care-hero.webp"
       />
       <WhyCustomerCare />
       <CustomerCareSolutions />

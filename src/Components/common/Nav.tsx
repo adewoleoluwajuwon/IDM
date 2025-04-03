@@ -21,7 +21,7 @@ const Nav = () => {
         
         {/* Left: Logo (Always Visible) */}
         <Navbar.Brand href="/" className="flex items-center">
-          <img src="/assets/logos/idm_logo.png" alt="IDM Logo" className="h-8 transition-transform duration-300 hover:scale-105 md:h-9" />
+          <img src="/logos/idm_logo.webp" alt="IDM Logo" className="h-8 transition-transform duration-300 hover:scale-105 md:h-9" />
         </Navbar.Brand>
 
         {/* Desktop Menu (FIXED - Always Visible on Large Screens) */}

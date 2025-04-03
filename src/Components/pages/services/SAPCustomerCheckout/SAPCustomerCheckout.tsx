@@ -14,7 +14,7 @@ const SAPCustomerCheckout = () => {
         SAP Customer Checkout can be used as a standalone solution or integrated with SAP S/4HANA and 
         all other SAP ERP systems."
         buttonText="Learn More"
-        heroImage="/src/assets/images/hero.png"
+        heroImage="/images/hero.webp"
       />
       <WhyChooseCheckout />
       <UseCases />

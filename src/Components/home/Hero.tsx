@@ -124,6 +124,7 @@ const Hero: React.FC = () => {
           <img 
             src={slides[currentSlide].image} 
             alt="Slide Image" 
+            loading="lazy"
             className="w-auto max-w-full max-h-[78vh] object-contain"
           />
         </motion.div>

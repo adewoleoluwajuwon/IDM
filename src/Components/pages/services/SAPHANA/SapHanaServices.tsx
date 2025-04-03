@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
-import { sapHanaServices, sapHanaImage } from "../../../../Constants/sapHanaData";
+import { sapHanaServices } from "../../../../Constants/sapHanaData";
 
 const SapHanaServices = () => {
   return (
@@ -53,7 +53,7 @@ const SapHanaServices = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-16 mx-auto max-w-4xl rounded-lg overflow-hidden shadow-lg"
         >
-          <img src={sapHanaImage} alt="SAP HANA Architecture" className="w-full object-cover" />
+          <img src="/images/sap-hana-architecture.webp" alt="SAP HANA Architecture" className="w-full object-cover" />
         </motion.div>
       </div>
     </section>

@@ -50,7 +50,7 @@ const Overview = () => {
           className="flex w-full justify-end md:w-1/2"
         >
           <LazyLoadImage
-            src="/assets/images/sb1.png" 
+            src="/images/sb1.webp" 
             alt="SAP Business One" 
             effect="blur" // ✅ Adds blur effect before image loads
             className="w-full max-w-md rounded-lg object-contain shadow-lg mt-4"

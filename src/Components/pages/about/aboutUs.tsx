@@ -1,8 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import Partners from "../../common/Partners";
-import ContactExpert from "../../common/ContactExpert";
-import Footer from "../../common/Footer";
 
 export default function AboutUs() {
   return (
@@ -41,7 +39,7 @@ export default function AboutUs() {
         </motion.p>
 
         <motion.img
-          src="/src/assets/images/aboutHero.png"
+          src="/images/aboutHero.webp"
           alt="Hero Image"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
@@ -113,8 +111,6 @@ export default function AboutUs() {
         </motion.div>
       </motion.div>
       <Partners />
-      <ContactExpert />
-      <Footer />
     </section>
   );
 }

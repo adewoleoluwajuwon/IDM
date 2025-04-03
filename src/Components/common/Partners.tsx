@@ -51,7 +51,7 @@ const Partners: React.FC = () => {
               key={index}
               className="min-w-[150px] md:min-w-[180px] lg:min-w-[200px] bg-white p-4 rounded-lg shadow-md"
             >
-              <img src={logo} alt={`Partner ${index + 1}`} className="w-full h-auto object-contain" />
+              <img src={logo} loading="lazy" alt={`Partner ${index + 1}`} className="w-full h-auto object-contain" />
             </motion.div>
           ))}
         </motion.div>

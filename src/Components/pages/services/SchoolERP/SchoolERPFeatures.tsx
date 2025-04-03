@@ -52,8 +52,8 @@ const SchoolERPFeatures = () => {
                   data comparison with previous years, ensuring efficient student tracking at all stages..
                 </p>
                 <div className="relative pt-10">
-                  <img src="/assets/images/school-erp-feature1.jpg" alt="Accounting Image 1" className="absolute  w-[250px] sm:w-[350px]" />
-                  <img src="/assets/images/school-erp-feature2.png" alt="Accounting Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature1.webp" alt="Accounting Image 1" className="absolute  w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature2.webp" alt="Accounting Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>
@@ -79,8 +79,8 @@ const SchoolERPFeatures = () => {
                   and generating over 15 statutory reports.
                 </p>
                 <div className="relative pt-10">
-                  <img src="/assets/images/school-erp-feature3.png" alt="Sales Image 1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src="/assets/images/school-erp-feature4.png" alt="Sales Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature3.webp" alt="Sales Image 1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature4.webp" alt="Sales Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>
@@ -103,7 +103,7 @@ const SchoolERPFeatures = () => {
               Teachers can record attendance via a mobile app, while leave applications 
               are managed online. Principals and management can analyze attendance statistics through graphical reports.
             </p>
-            <img src="/assets/images/school-erp-feature5.png" alt="Purchasing" className="mt-4 rounded-lg" />
+            <img src="/images/school-erp-feature5.webp" alt="Purchasing" className="mt-4 rounded-lg" />
           </motion.div>
 
           {/* Feature 4: Inventory and Distribution */}
@@ -121,7 +121,7 @@ const SchoolERPFeatures = () => {
               and published online or via the mobile app. Schools can also extract teacher performance reports, 
               while conducting graphical and range analyses to track overall progress effectively.
             </p>
-            <img src="/assets/images/school-erp-feature7.jpg" alt="Inventory" className="mt-4 rounded-lg" />
+            <img src="/images/school-erp-feature7.webp" alt="Inventory" className="mt-4 rounded-lg" />
           </motion.div>
 
           {/* Feature 4: Inventory and Distribution */}
@@ -140,7 +140,7 @@ const SchoolERPFeatures = () => {
               The module is fully customizable, allowing teachers to modify fields and 
               create personalized lesson plans to meet specific needs.
             </p>
-            <img src="/assets/images/school-erp-feature6.png" alt="analyticsImg1" className="mt-4 rounded-lg" />
+            <img src="/images/school-erp-feature6.webp" alt="analyticsImg1" className="mt-4 rounded-lg" />
           </motion.div>
         </div>
 
@@ -166,8 +166,8 @@ const SchoolERPFeatures = () => {
                   The system streamlines library operations and enhances organization.
                 </p>
                 <div className="relative pt-10">
-                  <img src="/assets/images/school-erp-feature8.png" alt="codeBaseImg1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src="/assets/images/school-erp-feature9.png" alt="codeBaseImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature8.webp" alt="codeBaseImg1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature9.webp" alt="codeBaseImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>
@@ -191,8 +191,8 @@ const SchoolERPFeatures = () => {
                   This system ensures organized, up-to-date records for teachers, administrative staff, and other personnel.
                 </p>
                 <div className="relative pt-10">
-                  <img src="/assets/images/school-erp-feature10.png" alt="analyticsImg1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src="/assets/images/school-erp-feature11.png" alt="analyticsImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature10.webp" alt="analyticsImg1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/images/school-erp-feature11.webp" alt="analyticsImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>

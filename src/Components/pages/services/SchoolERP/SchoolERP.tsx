@@ -16,7 +16,7 @@ const SchoolERP = () => {
         for educational establishments especially schools keeping in view their set of requirements. 
         It acts as a potent tool enabling and ensuring the proper functioning of the operations of the school."
         buttonText="Learn More"
-        heroImage="/assets/images/school-erp-hero.jpg"
+        heroImage="/images/school-erp-hero.webp"
       />
       <SchoolERPFeatures />
       <MobileApp />

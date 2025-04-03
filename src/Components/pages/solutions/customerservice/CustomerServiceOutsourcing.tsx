@@ -10,7 +10,7 @@ const CustomerServiceOutsourcing = () => {
         {/* Image Section */}
         <div className="overflow-hidden rounded-xl">
           <img
-            src="/src/assets/images/customer-service-outsource.png"
+            src="/images/customer-service-outsource.webp"
             alt="Customer service outsourcing"
             className="w-full h-full object-cover"
           />

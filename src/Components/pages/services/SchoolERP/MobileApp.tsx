@@ -29,7 +29,7 @@ const MobileApp = () => {
               href="#"
               className="bg-black rounded-lg shadow-lg"
             >
-              <img src="/assets/images/google-play.png" alt="Google Play" width={180} height={60} />
+              <img src="/images/google-play.webp" alt="Google Play" width={180} height={60} />
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.05 }}
@@ -37,7 +37,7 @@ const MobileApp = () => {
               href="#"
               className="bg-black rounded-lg shadow-lg"
             >
-              <img src="/assets/images/app-store.png" alt="App Store" width={180} height={60} />
+              <img src="/images/app-store.webp" alt="App Store" width={180} height={60} />
             </motion.a>
           </div>
         </motion.div>
@@ -50,7 +50,7 @@ const MobileApp = () => {
           className="flex-1 flex justify-center"
         >
           <img
-            src="/assets/images/school-mobile-app.png"
+            src="/images/school-mobile-app.webp"
             alt="Mobile App"
             width={500}
             height={400}

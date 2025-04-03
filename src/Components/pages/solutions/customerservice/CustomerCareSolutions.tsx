@@ -55,7 +55,7 @@ const CustomerCareSolutions = () => {
         {/* Right side - Image */}
         <div className="lg:w-1/2 w-full h-full">
           <img
-            src="/src/assets/images/customer-service-center.png" 
+            src="/images/customer-service-center.webp" 
             alt="Customer Care Center"
             className="object-cover w-full h-full"
           />

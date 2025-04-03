@@ -10,37 +10,37 @@ export interface Industry {
       title: "Manufacturing",
       description:
         "We provide manufacturing solutions that help you optimize your supply chain, improve customer experience, and drive sales.",
-      image: "/assets/images/industry-manufacturing.png",
+      image: "/images/industry-manufacturing.webp",
     },
     {
       title: "Retail",
       description:
         "Manage POS, Inventory, Cash and Integrate Back End Procurement and SKU with ease.",
-      image: "/assets/images/industry-retail.png",
+      image: "/images/industry-retail.webp",
     },
     {
       title: "Logistics",
       description:
         "Functionality for complex warehousing, voluminous stock movements, bin management & distribution centres.",
-      image: "/assets/images/industry-logistics.png",
+      image: "/images/industry-logistics.webp",
     },
     {
       title: "Automobile component",
       description:
         "Comprehensive solution including quality management, advance production & subcontracting.",
-      image: "/assets/images/industry-automobile.png",
+      image: "/images/industry-automobile.webp",
     },
     {
       title: "Food & Beverages",
       description:
         "End-to-end solution for procurement, processing & distribution for food & beverages manufacturing.",
-      image: "/assets/images/industry-food.png",
+      image: "/images/industry-food.webp",
     },
     {
       title: "Oil & Gas",
       description:
         "We offer proven best-practice solutions for companies specializing in the import, export, distribution, and marketing of oil and gas products.",
-      image: "/assets/images/industry-oil-gas.png",
+      image: "/images/industry-oil-gas.webp",
     },
   ];
   

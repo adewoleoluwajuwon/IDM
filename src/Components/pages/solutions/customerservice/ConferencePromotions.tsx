@@ -27,17 +27,17 @@ const ConferencePromotions = () => {
         {/* Images Grid */}
         <div className="flex flex-col gap-6">
             <img
-                src="/src/assets/images/customer-care-agent-3.png"
+                src="/images/customer-care-agent-3.webp"
                 alt="Agent 1"
                 className="w-3/4 h-auto object-cover rounded-lg shadow-md"
             />
             <img
-                src="/src/assets/images/customer-care-agent-1.png"
+                src="/images/customer-care-agent-1.webp"
                 alt="Agent 2"
                 className="w-3/4 h-auto object-cover rounded-lg shadow-md"
             />
             <img
-                src="/src/assets/images/customer-care-agent-2.png"
+                src="/images/customer-care-agent-2.webp"
                 alt="Agent 3"
                 className="w-3/4 h-auto object-cover rounded-lg shadow-md"
             />

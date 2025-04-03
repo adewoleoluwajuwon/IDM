@@ -12,7 +12,7 @@ const Powerbi = () => {
         title="Gain valuable insights with the assistance of our Power BI experts"
         subtitle="Integrate high impact analytics and business intelligence products with minimal upfront costs."
         buttonText="Learn More"
-        heroImage="/src/assets/images/powerbi-hero.png"
+        heroImage="/images/powerbi-hero.webp"
       />
       <PowerbiBenefits />
       <PowerbiWhatWeDo />

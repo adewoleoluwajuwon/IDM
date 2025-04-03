@@ -12,7 +12,7 @@ function Manufacturing() {
             empowering organizations to optimize operations, drive innovation, and accelerate growth. 
             SAP provides the tools and insights needed to stay ahead in a fast-evolving marketplace."
             buttonText="Learn More"
-            heroImage="/src/assets/images/industry.jpg"
+            heroImage="/images/industry.webp"
         />
         <Industries />
     </main>

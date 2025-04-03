@@ -56,6 +56,7 @@ const Solutions: React.FC = () => {
             <img
               src={solution.image}
               alt={solution.title}
+              loading="lazy"
               className="w-full object-cover h-64 rounded-b-xl"
             />
           </motion.div>
