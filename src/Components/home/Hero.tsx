@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
           {/* Title Section: Image + Title */}
           <div className="flex justify-center md:justify-start items-center">
             <img
-              src={`${slides[currentSlide].roundImages[0]}?v=${new Date().getTime()}`}
+              src={slides[currentSlide].roundImages[0]}
               alt="Round Icon"
               className="w-14 h-14 md:w-16 md:h-16 rounded-full shadow-md mr-4"
             />
@@ -122,7 +122,7 @@ const Hero: React.FC = () => {
           className="hidden md:flex w-full max-w-xl justify-end"
         >
           <img 
-            src={`${slides[currentSlide].image}?v=${new Date().getTime()}`}
+            src={slides[currentSlide].image} 
             alt="Slide Image" 
             loading="lazy"
             className="w-auto max-w-full max-h-[78vh] object-contain"
