@@ -2,20 +2,6 @@
 
 import { motion } from 'framer-motion';
 
-// ✅ Import images (Replace these with actual image paths)
-import accountingImg1 from '../../../../assets/images/feature1.png';
-import accountingImg2 from '../../../../assets/images/feature2.png';
-import salesImg1 from '../../../../assets/images/feature3.png';
-import salesImg2 from '../../../../assets/images/feature4.png';
-import purchasingImg from '../../../../assets/images/feature5.png';
-import integrationImg from '../../../../assets/images/feature6.png';
-import inventoryImg from '../../../../assets/images/feature7.png';
-import codeBaseImg1 from '../../../../assets/images/feature8.png';
-import codeBaseImg2 from '../../../../assets/images/feature9.png';
-import analyticsImg1 from '../../../../assets/images/feature10.png';
-import analyticsImg2 from '../../../../assets/images/feature11.png';
-
-
 const Features = () => {
   return (
     <section id="section" className="w-full bg-[#0A0A1A] text-white py-16">
@@ -61,8 +47,8 @@ const Features = () => {
                   Payment runs, real-time financial numbers, drill down, and full multi-currency capabilities.
                 </p>
                 <div className="relative pt-10">
-                  <img src={accountingImg1} alt="Accounting Image 1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src={accountingImg2} alt="Accounting Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature1.png" alt="Accounting Image 1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature2.png" alt="Accounting Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>
@@ -83,8 +69,8 @@ const Features = () => {
                   Manage the entire sales process from first contact to closing the sale, including customer data management and after-sales support.
                 </p>
                 <div className="relative pt-10">
-                  <img src={salesImg1} alt="Sales Image 1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src={salesImg2} alt="Sales Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature3.png" alt="Sales Image 1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature4.png" alt="Sales Image 2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>
@@ -105,7 +91,7 @@ const Features = () => {
                 Control the entire procurement process. Materials resource planning, minimum inventory levels and production planning. 
                 Schedule your material and production requirements.
             </p>
-            <img src={purchasingImg} alt="Purchasing" className="mt-4 rounded-lg" />
+            <img src="/assets/images/feature5.png" alt="Purchasing" className="mt-4 rounded-lg" />
           </motion.div>
 
           {/* Feature 4: Inventory and Distribution */}
@@ -121,7 +107,7 @@ const Features = () => {
                 Manage inventory across multiple warehouses and locations, and track and record stock movements. 
                 Moving average, FIFO and standard costing methods. Manage serial and batch items. Multiple units of measure.
             </p>
-            <img src={inventoryImg} alt="Inventory" className="mt-4 rounded-lg" />
+            <img src="/assets/images/feature7.png" alt="Inventory" className="mt-4 rounded-lg" />
           </motion.div>
 
           {/* Feature 4: Inventory and Distribution */}
@@ -136,7 +122,7 @@ const Features = () => {
             <p className="text-gray-600 mt-2">
                 Software lets you design and deliver reports via the Web or embedded in enterprise applications.
             </p>
-            <img src={integrationImg} alt="analyticsImg1" className="mt-4 rounded-lg" />
+            <img src="/assets/images/feature6.png" alt="analyticsImg1" className="mt-4 rounded-lg" />
           </motion.div>
         </div>
 
@@ -159,8 +145,8 @@ const Features = () => {
                     cloud-based applications, and mobile devices provides anywhere, anytime access to tools and information.
                 </p>
                 <div className="relative pt-10">
-                  <img src={codeBaseImg1} alt="codeBaseImg1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src={codeBaseImg2} alt="codeBaseImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature8.png" alt="codeBaseImg1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature9.png" alt="codeBaseImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>
@@ -181,8 +167,8 @@ const Features = () => {
                     Delivers in-memory technology and analytics innovations without disruption to the customer’s business.
                 </p>
                 <div className="relative pt-10">
-                  <img src={analyticsImg1} alt="analyticsImg1" className="absolute w-[250px] sm:w-[350px]" />
-                  <img src={analyticsImg2} alt="analyticsImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature10.png" alt="analyticsImg1" className="absolute w-[250px] sm:w-[350px]" />
+                  <img src="/assets/images/feature11.png" alt="analyticsImg2" className="absolute right-0 translate-y-1/2 w-[250px] sm:w-[350px]" />
                 </div>
             </motion.div>
           </motion.div>

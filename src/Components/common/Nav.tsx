@@ -5,7 +5,6 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { HiChevronDown, HiMenu, HiX } from 'react-icons/hi';
 import { Icon } from '@iconify/react';
 import { useState } from 'react';
-import idmLogo from "../../assets/logos/idm_logo.png";
 import navItems from '../../Constants/navItems';
 import NavModal from './NavModal';
 
@@ -22,7 +21,7 @@ const Nav = () => {
         
         {/* Left: Logo (Always Visible) */}
         <Navbar.Brand href="/" className="flex items-center">
-          <img src={idmLogo} alt="IDM Logo" className="h-8 transition-transform duration-300 hover:scale-105 md:h-9" />
+          <img src="/assets/logos/idm_logo.png" alt="IDM Logo" className="h-8 transition-transform duration-300 hover:scale-105 md:h-9" />
         </Navbar.Brand>
 
         {/* Desktop Menu (FIXED - Always Visible on Large Screens) */}
@@ -123,7 +122,7 @@ const Nav = () => {
         <div className="flex flex-col p-6">
           {/* Logo in Mobile Menu */}
           <Navbar.Brand href="/" className="mb-4 flex items-center">
-            <img src={idmLogo} alt="IDM Logo" className="h-8 transition-transform duration-300 hover:scale-105" />
+            <img src="/assets/logo/idm_logo.png" alt="IDM Logo" className="h-8 transition-transform duration-300 hover:scale-105" />
           </Navbar.Brand>
 
           {/* Close Button */}

@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { FaArrowDown } from "react-icons/fa";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css'; // ✅ Import blur effect
-import sapBusinessOne from '../../../../assets/images/sb1.png'; // ✅ Import SAP Business One image
 
 const Overview = () => {
   return (
@@ -51,7 +50,7 @@ const Overview = () => {
           className="flex w-full justify-end md:w-1/2"
         >
           <LazyLoadImage
-            src={sapBusinessOne} 
+            src="/assets/images/sb1.png" 
             alt="SAP Business One" 
             effect="blur" // ✅ Adds blur effect before image loads
             className="w-full max-w-md rounded-lg object-contain shadow-lg mt-4"

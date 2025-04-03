@@ -3,11 +3,6 @@
 import { motion } from "framer-motion";
 
 
-// ✅ Importing images
-import googlePlayBadge from "../../../../assets/images/google-play.png";
-import appStoreBadge from "../../../../assets/images/app-store.png";
-import mobileAppImage from "../../../../assets/images/school-mobile-app.png";
-
 const MobileApp = () => {
   return (
     <section className="w-full bg-gray-50 py-16 px-6 md:px-12 lg:px-16">
@@ -34,7 +29,7 @@ const MobileApp = () => {
               href="#"
               className="bg-black rounded-lg shadow-lg"
             >
-              <img src={googlePlayBadge} alt="Google Play" width={180} height={60} />
+              <img src="/assets/images/google-play.png" alt="Google Play" width={180} height={60} />
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.05 }}
@@ -42,7 +37,7 @@ const MobileApp = () => {
               href="#"
               className="bg-black rounded-lg shadow-lg"
             >
-              <img src={appStoreBadge} alt="App Store" width={180} height={60} />
+              <img src="/assets/images/app-store.png" alt="App Store" width={180} height={60} />
             </motion.a>
           </div>
         </motion.div>
@@ -55,7 +50,7 @@ const MobileApp = () => {
           className="flex-1 flex justify-center"
         >
           <img
-            src={mobileAppImage}
+            src="/assets/images/school-mobile-app.png"
             alt="Mobile App"
             width={500}
             height={400}

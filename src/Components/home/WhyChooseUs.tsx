@@ -18,7 +18,7 @@ const WhyChooseUs: React.FC = () => {
           className="w-full md:w-1/2"
         >
           <img 
-            src="/src/assets/images/why-choose-us.png" 
+            src="/assets/images/why-choose-us.png" 
             alt="Why Choose SAP" 
             className="rounded-2xl shadow-lg w-full h-auto"
           />

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import idmLogo from "../../assets/logos/idm_logo.png";
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
         <div>
           <Link to="/" className="flex items-center">
             <img
-              src={idmLogo}
+              src="/assets/logos/idm_logo.png"
               alt="IDM Logo"
               className="h-8 transition-transform duration-300 hover:scale-105 md:h-9"
             />
