@@ -122,7 +122,7 @@ const Hero: React.FC = () => {
           className="hidden md:flex w-full max-w-xl justify-end"
         >
           <img 
-            src={slides[currentSlide].image} 
+            src={`${slides[currentSlide].image}?v=${new Date().getTime()}`}
             alt="Slide Image" 
             loading="lazy"
             className="w-auto max-w-full max-h-[78vh] object-contain"
