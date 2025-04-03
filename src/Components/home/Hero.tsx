@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
           {/* Title Section: Image + Title */}
           <div className="flex justify-center md:justify-start items-center">
             <img
-              src={slides[currentSlide].roundImages[0]}
+              src={`${slides[currentSlide].roundImages[0]}?v=${new Date().getTime()}`}
               alt="Round Icon"
               className="w-14 h-14 md:w-16 md:h-16 rounded-full shadow-md mr-4"
             />

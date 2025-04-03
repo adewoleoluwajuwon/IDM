@@ -62,7 +62,7 @@ export default function AboutUs() {
           </p>
         </div>
         <motion.img
-          src="/src/assets/images/vision-image.png" 
+          src="/images/vision-image.webp" 
           alt="Vision Image"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
